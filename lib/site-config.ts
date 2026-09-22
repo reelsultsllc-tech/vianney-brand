@@ -11,11 +11,11 @@ export const siteConfig = {
   youtube: "https://youtube.com/",
 
   // SEO
-  title: "Vianney — Better Decisions. Real Results.",
+  title: "Vianney Davila — Better Decisions. Real Results.",
   description:
-    "Practical thinking, strategic guidance and execution for business owners who want to grow more intentionally.",
+    "Work directly with Vianney, bring in Reelsults for execution, or run your numbers first with ROI CAST. Strategic guidance for business owners who want to grow intentionally.",
   ogImage: "/og-image.jpg",
-  siteUrl: "https://vianney.co",
+  siteUrl: "https://vianneydavila.com",
 };
 
 export const thinkingPosts = [
