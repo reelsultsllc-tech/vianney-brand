@@ -1,9 +1,13 @@
 "use client";
 
 import { createContext, useContext, useEffect, useState } from "react";
-import { Locale, translations, T } from "@/lib/translations";
+import { Locale, translations } from "@/lib/translations";
 
-type LangCtx = { locale: Locale; t: T };
+type LangCtx = {
+  locale: Locale;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  t: any;
+};
 
 const LangContext = createContext<LangCtx>({
   locale: "en",
