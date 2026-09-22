@@ -98,7 +98,7 @@ export default function RoiCastUIAnimated() {
           </div>
 
           <div style={{ display: "flex", flexWrap: "wrap", gap: "5px" }}>
-            {ui.industries.map((name, i) => {
+            {(ui.industries as string[]).map((name: string, i: number) => {
               const sel = i === idx;
               return (
                 <span
